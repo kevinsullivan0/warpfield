@@ -1,0 +1,54 @@
+{
+  "moduleGraph": "7e",
+  "checks": [
+    "13 numerical/behavior suites pass",
+    "Assist handoff from50c limit /13.000424402c actual retained13.000424c command with unchanged clock and position",
+    "Paused assist snapshots0c and2c both applied with unchanged clock and position",
+    "Manual steering releases assist while retaining2c",
+    "Bridge Sun look-at changed camera forward from+Z to-Z while ship/observer stayed fixed",
+    "Outside Neptune look-at changed camera bearing only; clicking planet label selectedNeptune",
+    "390x844 horizontal overflow absent;2x2 touch steering clears navigation panel",
+    "Current-coordinate navigation overlays available with Optical mode; actual solver GPU validation through50c stillpasses",
+    "Long-frame3s standoff cap and paused holding snapshot regression tests pass"
+  ],
+  "benchmark": {
+    "backend": "webgpu",
+    "cameraFocus": "ship",
+    "clockHeld": false,
+    "fps": 59.90534954771459,
+    "frames": 600,
+    "gpuMs": 8.912896,
+    "height": 720,
+    "memoryMiB": 48.118408203125,
+    "nativePixelRatio": 1,
+    "optics": {
+      "height": 93,
+      "mode": "scene-map",
+      "motionBudget": 129,
+      "refined": false,
+      "tileRows": 8,
+      "width": 129
+    },
+    "over25ms": 1,
+    "p50": 16.69999999999709,
+    "p95": 17.5,
+    "p99": 17.69999999999709,
+    "pixelRatio": 1,
+    "renderSizes": [
+      "1000\u00d7720"
+    ],
+    "resolution": 1,
+    "scene": "solar",
+    "speedEnd": 2,
+    "speedStart": 2,
+    "view": "external",
+    "warp": true,
+    "width": 1000
+  },
+  "notes": [
+    "HUD guides use current coordinates rather than apparent retarded optical images.",
+    "Assist remains an approach/hold controller; manual flybys use speed-preserving takeover.",
+    "Optical solver code unchanged aside from browser import query updates.",
+    "Browser performance sample is session-specific."
+  ]
+}

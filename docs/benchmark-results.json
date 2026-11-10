@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-09",
+  "browser": "Native Firefox on user desktop",
+  "render_size": [
+    3046,
+    1758
+  ],
+  "quality_scale": 1,
+  "sky_size": [
+    4096,
+    2048
+  ],
+  "integration": {
+    "method": "RK4",
+    "step": 0.024,
+    "steps": 1024,
+    "angles": 768
+  },
+  "bridge": {
+    "speed_c": 0.5,
+    "frames": 601,
+    "fps": 59.99800339422979,
+    "p50_ms": 16.659999999999854,
+    "p95_ms": 17.61999999999898,
+    "p99_ms": 17.68000000000029,
+    "intervals_over_25ms": 0,
+    "app_owned_gpu_mib": 32.022361755371094,
+    "sampled_max_angle_error_rad": 2.34e-06
+  },
+  "scope": "Ten seconds after warmup, measured requestAnimationFrame intervals. Texture-memory count excludes browser-managed presentation/depth buffers and driver overhead. Not a guarantee for all devices or host browsers.",
+  "external_warp": {
+    "speed_c": 2,
+    "frames": 601,
+    "fps": 59.99992013321779,
+    "p50_ms": 16.660000000003492,
+    "p95_ms": 17.599999999998545,
+    "p99_ms": 17.660000000003492,
+    "intervals_over_25ms": 0,
+    "app_owned_gpu_mib": 32.20249938964844
+  },
+  "external_reference": {
+    "speed_c": 2,
+    "sky": "Ringworld dusk",
+    "frames": 601,
+    "fps": 59.99536807807183,
+    "p50_ms": 16.660000000003492,
+    "p95_ms": 17.539999999979045,
+    "p99_ms": 17.679999999993015,
+    "intervals_over_25ms": 0,
+    "app_owned_gpu_mib": 32.2169189453125
+  },
+  "initial_external_with_concurrent_in_app_renderer": {
+    "fps": 59.40613830148372,
+    "frames": 595,
+    "intervals_over_25ms": 3
+  },
+  "optimization_notes": [
+    "Direct float direction LUT removes per-pixel angle unpacking and trig; same RK4 integration settings.",
+    "One renderer/context and one GPU-generated 4K sky.",
+    "Reduced line overdraw, unchanged numerical ray trajectories.",
+    "Do not render the scene behind an open physics modal."
+  ],
+  "in_app_webgpu": {
+    "render_size": [
+      1280,
+      800
+    ],
+    "quality_scale": 1,
+    "frames": 596,
+    "fps": 59.49647613153117,
+    "p50_ms": 16.69999999999709,
+    "p95_ms": 17.60000000000582,
+    "p99_ms": 17.80000000000291,
+    "intervals_over_25ms": 5,
+    "gpu_ms": 0.524288,
+    "sampled_max_angle_error_rad": 2.03e-06
+  }
+}

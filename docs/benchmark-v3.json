@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-09",
+  "environment": "ChatGPT in-app browser on macOS, AMD GPU, 1280x800, scale 1, Auto optics, 4K sky, moving external camera",
+  "samples": [
+    {"backend":"webgpu","adapter":"amd rdna-1","speedC":0.5,"frames":601,"fps":59.9998,"p50ms":16.7,"p95ms":17.6,"p99ms":17.7,"over25ms":0,"lastSampledGpuMs":1.6384,"appGpuMiB":40.01794},
+    {"backend":"webgpu","adapter":"amd rdna-1","speedC":50,"frames":595,"fps":59.3984,"p50ms":16.7,"p95ms":17.6,"p99ms":17.7,"over25ms":2,"lastSampledGpuMs":4.390912,"appGpuMiB":40.01794},
+    {"backend":"webgl2","adapter":"ANGLE Metal Renderer: AMD Radeon Pro 5500M","speedC":50,"frames":571,"fps":57.00765,"p50ms":16.7,"p95ms":32.5,"p99ms":34.3,"over25ms":30,"lastSampledGpuMs":6.99564,"appGpuMiB":36.11169}
+  ],
+  "gpuCpuSampledMaxAngleErrorRad":{"webgpu":4.76e-6,"webgl2":2.98e-6},
+  "limits":"Ten-second session samples; GPU costs are individual samples, not averages. Numerical checks concern sampled kernel output, not interpolation accuracy of the full image. Does not establish exact physical accuracy or guarantee 60fps on other hardware."
+}

@@ -1,0 +1,4 @@
+export const optics=`
+struct Speed{value:vec4f};@group(0) @binding(0) var<uniform> speed:Speed;
+fn derivative(q:vec4f)->vec4f{let r=length(q.xy);let a=tanh(5.*(r+1.));let c=tanh(5.*(r-1.));let f=(a-c)/(2.*tanh(5.));let df=5.*(c*c-a*a)/(2.*tanh(5.));var g=vec2f(0.);if(r>1e-8){g=-speed.value.x*df*q.xy/r;}let n=vec2f(cos(q.z),sin(q.z));return vec4f(n.x+speed.value.x*(1.-f),n.y,-n.x*(g.y*n.x-g.x*n.y),-n.x*dot(g,n));}
+@fragment fn fs(@builtin(position) pos:vec4f)->@location(0) vec4f{let theta=(pos.x-.5)/767.*3.14159265359;var q=vec4f(0.,0.,theta,0.);let h=.024;if(speed.value.x>.0001){for(var i=0;i<1024;i++){if(length(q.xy)>2.8){break;}let a=derivative(q);let b=derivative(q+h*a*.5);let c=derivative(q+h*b*.5);let d=derivative(q+h*c);q+=h*(a+2.*b+2.*c+d)/6.;}}let angle=fract((q.z+3.14159265359)/6.28318530718);let packed=floor(angle*65535.+.5);let escaped=speed.value.x<.0001||length(q.xy)>2.8;return vec4f(cos(q.z),sin(q.z),-q.w,select(0.,1.,escaped));}`;

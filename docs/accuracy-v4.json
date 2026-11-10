@@ -1,0 +1,72 @@
+{
+  "profile": "sigma R=5, R=c=1",
+  "independentCanonicalCases": 78,
+  "maxDirectionDisagreementRad": 1.456740961192087e-7,
+  "maxLogFrequencyDisagreement": 5.133564799919554e-7,
+  "publishedChecks": [
+    "Clark et al.1999 exact90degree no aberration/frequency shift",
+    "Clark et al.1999 Eq26 head-on1+v; 50c ->51",
+    "qualitative forward clustering, transverse fixed direction; 10c/100c bracket50c"
+  ],
+  "mapInterpolation": [
+    {
+      "map": "257x161",
+      "speedC": 2,
+      "orbitYaw": 0.12,
+      "distance": 6,
+      "samples": 160,
+      "invalidOrBoundary": 0,
+      "p95Degrees": 0.07244014397424355,
+      "maxDegrees": 0.25281739717069857
+    },
+    {
+      "map": "513x321",
+      "speedC": 2,
+      "orbitYaw": 0.12,
+      "distance": 6,
+      "samples": 160,
+      "invalidOrBoundary": 0,
+      "p95Degrees": 0.02031272662170288,
+      "maxDegrees": 0.10768997749928243
+    },
+    {
+      "map": "257x161",
+      "speedC": 50,
+      "orbitYaw": 0.12,
+      "distance": 6,
+      "samples": 160,
+      "invalidOrBoundary": 0,
+      "p95Degrees": 0.0000535636655955977,
+      "maxDegrees": 0.0000761439738789304
+    },
+    {
+      "map": "513x321",
+      "speedC": 50,
+      "orbitYaw": 0.12,
+      "distance": 6,
+      "samples": 160,
+      "invalidOrBoundary": 0,
+      "p95Degrees": 0.000013309014001239911,
+      "maxDegrees": 0.00001788854448343451
+    }
+  ],
+  "limits": "Samples of smooth regions and one camera, not a bound at caustics; independent CPU numerical agreement is distinct from GPU output agreement and rendered interpolation. No published50c image was quantitatively digitized.",
+  "bridgeInterpolation": [
+    {
+      "samples": 768,
+      "speedC": 50,
+      "validMidpoints": 724,
+      "p95Degrees": 0.0022892152075333068,
+      "maxDegrees": 0.0038997066234433653,
+      "maxLogFrequencyInterpolationError": 0.00045758371480175697
+    },
+    {
+      "samples": 1536,
+      "speedC": 50,
+      "validMidpoints": 1450,
+      "p95Degrees": 0.0005728700288052983,
+      "maxDegrees": 0.0009739465670585363,
+      "maxLogFrequencyInterpolationError": 0.0001184174100696822
+    }
+  ]
+}

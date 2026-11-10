@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-10",
+  "before": {
+    "scene": "solar",
+    "representation": "optical",
+    "view": "bridge",
+    "metricSpeed": 0,
+    "target": 0,
+    "clockHeld": true,
+    "simTime": 0.36475748364860033,
+    "distanceFlown": 0,
+    "position": [
+      0,
+      0,
+      129.6
+    ],
+    "heading": [
+      0.455585000000001,
+      0.26
+    ],
+    "cameraWorld": [
+      0,
+      0,
+      129.6
+    ],
+    "cameraForward": [
+      0.7490286457424893,
+      0.04007484580681922,
+      0.6613245002196216
+    ],
+    "focus": "ship",
+    "sourceEpoch": 0.36475748364860033,
+    "assist": false,
+    "assistCruise": 0,
+    "selectedTarget": 3,
+    "guides": true,
+    "assistMode": "approach",
+    "flybyPhase": null,
+    "lastFlyby": null
+  },
+  "after": {
+    "scene": "solar",
+    "representation": "optical",
+    "view": "external",
+    "metricSpeed": 0,
+    "target": 0,
+    "clockHeld": true,
+    "simTime": 0.36475748364860033,
+    "distanceFlown": 0,
+    "position": [
+      0,
+      0,
+      129.6
+    ],
+    "heading": [
+      0.455585000000001,
+      0.26
+    ],
+    "cameraWorld": [
+      -4.494171874454935,
+      -0.24044907484091493,
+      125.63205299868227
+    ],
+    "cameraForward": [
+      0.7490286457424893,
+      0.04007484580681922,
+      0.6613245002196217
+    ],
+    "focus": "ship",
+    "sourceEpoch": 0.36475748364860033,
+    "assist": false,
+    "assistCruise": 0,
+    "selectedTarget": 3,
+    "guides": true,
+    "assistMode": "approach",
+    "flybyPhase": null,
+    "lastFlyby": null
+  },
+  "afterButtonAndY": {
+    "scene": "solar",
+    "representation": "optical",
+    "view": "external",
+    "metricSpeed": 0,
+    "target": 0,
+    "clockHeld": true,
+    "simTime": 0.36475748364860033,
+    "distanceFlown": 0,
+    "position": [
+      0,
+      0,
+      129.6
+    ],
+    "heading": [
+      0.455585000000001,
+      0.26
+    ],
+    "cameraWorld": [
+      -4.494171874454935,
+      -0.24044907484091493,
+      125.63205299868227
+    ],
+    "cameraForward": [
+      0.7490286457424893,
+      0.04007484580681922,
+      0.6613245002196217
+    ],
+    "focus": "ship",
+    "sourceEpoch": 0.36475748364860033,
+    "assist": false,
+    "assistCruise": 0,
+    "selectedTarget": 3,
+    "guides": true,
+    "assistMode": "approach",
+    "flybyPhase": null,
+    "lastFlyby": null
+  }
+}

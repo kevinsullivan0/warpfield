@@ -1,0 +1,1202 @@
+{
+  "date": "2026-11-10",
+  "durationSeconds": 1.2,
+  "outward": [
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": true,
+      "transitionSeconds": 0.318,
+      "fov": 62.399283122375,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0.28980936914860017,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0.3254549999999993,
+        0.22853999999999908
+      ],
+      "cameraWorld": [
+        -0.4729973845669717,
+        -0.007923776025182516,
+        129.05750479902167
+      ],
+      "cameraForward": [
+        0.6571370980994822,
+        0.01100853271724897,
+        0.753690683575699
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0.28980936914860017,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": true,
+      "transitionSeconds": 0.5513000000000012,
+      "fov": 68.48479589266567,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0.28980936914860017,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0.3254549999999993,
+        0.22853999999999908
+      ],
+      "cameraWorld": [
+        -1.6727022452618185,
+        -0.028021545955077054,
+        127.68152651509695
+      ],
+      "cameraForward": [
+        0.6571370980994822,
+        0.01100853271724897,
+        0.7536906835756988
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0.28980936914860017,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": true,
+      "transitionSeconds": 0.7664000000000016,
+      "fov": 74.93951792875094,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0.28980936914860017,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0.3254549999999993,
+        0.22853999999999908
+      ],
+      "cameraWorld": [
+        -2.9451934376113744,
+        -0.04933865156957462,
+        126.22206735599649
+      ],
+      "cameraForward": [
+        0.6571370980994823,
+        0.01100853271724897,
+        0.7536906835756989
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0.28980936914860017,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": true,
+      "transitionSeconds": 0.867200000000001,
+      "fov": 77.31169242136376,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0.28980936914860017,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0.3254549999999993,
+        0.22853999999999908
+      ],
+      "cameraWorld": [
+        -3.412846596289733,
+        -0.05717289972345996,
+        125.68570161152704
+      ],
+      "cameraForward": [
+        0.6571370980994822,
+        0.011008532717248998,
+        0.753690683575699
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0.28980936914860017,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": true,
+      "transitionSeconds": 1.0845000000000005,
+      "fov": 79.84642239911244,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0.28980936914860017,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0.3254549999999993,
+        0.22853999999999908
+      ],
+      "cameraWorld": [
+        -3.9125461269027926,
+        -0.06554399709029157,
+        125.11258090064426
+      ],
+      "cameraForward": [
+        0.6571370980994822,
+        0.011008532717248998,
+        0.753690683575699
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0.28980936914860017,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 80,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0.28980936914860017,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0.3254549999999993,
+        0.22853999999999908
+      ],
+      "cameraWorld": [
+        -3.9428225885968935,
+        -0.06605119630349376,
+        125.0778558985458
+      ],
+      "cameraForward": [
+        0.6571370980994824,
+        0.01100853271724897,
+        0.7536906835756988
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0.28980936914860017,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 80,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0.28980936914860017,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0.3254549999999993,
+        0.22853999999999908
+      ],
+      "cameraWorld": [
+        -3.9428225885968935,
+        -0.06605119630349376,
+        125.0778558985458
+      ],
+      "cameraForward": [
+        0.6571370980994824,
+        0.01100853271724897,
+        0.7536906835756988
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0.28980936914860017,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 80,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0.28980936914860017,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0.3254549999999993,
+        0.22853999999999908
+      ],
+      "cameraWorld": [
+        -3.9428225885968935,
+        -0.06605119630349376,
+        125.0778558985458
+      ],
+      "cameraForward": [
+        0.6571370980994824,
+        0.01100853271724897,
+        0.7536906835756988
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0.28980936914860017,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 80,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0.28980936914860017,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0.3254549999999993,
+        0.22853999999999908
+      ],
+      "cameraWorld": [
+        -3.9428225885968935,
+        -0.06605119630349376,
+        125.0778558985458
+      ],
+      "cameraForward": [
+        0.6571370980994824,
+        0.01100853271724897,
+        0.7536906835756988
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0.28980936914860017,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    }
+  ],
+  "inward": [
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": true,
+      "transitionSeconds": 0.10140000000000055,
+      "fov": 79.89410775667432,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        -3.928279390382507,
+        0.35787912192719645,
+        125.12112283331415
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944462,
+        0.7504528847548212
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": true,
+      "transitionSeconds": 0.3345,
+      "fov": 77.27744226244764,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        -3.4115940854561164,
+        0.31080739793209206,
+        125.71022808388838
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944463,
+        0.7504528847548212
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": true,
+      "transitionSeconds": 0.5514000000000006,
+      "fov": 71.51212006294149,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        -2.2731767886242658,
+        0.20709385261391036,
+        127.00820888673651
+      ],
+      "cameraForward": [
+        0.6581981355869221,
+        -0.05996400647944463,
+        0.7504528847548211
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": true,
+      "transitionSeconds": 0.7846999999999996,
+      "fov": 64.58239286162633,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        -0.9048367314147812,
+        0.08243359057377664,
+        128.56833901737377
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944463,
+        0.7504528847548212
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": true,
+      "transitionSeconds": 1.0001,
+      "fov": 60.70891242282021,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        -0.13998145049840138,
+        0.012752768734604958,
+        129.44039838817682
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944463,
+        0.7504528847548212
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": true,
+      "transitionSeconds": 1.1014,
+      "fov": 60.09772253198258,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        -0.019296236506730846,
+        0.001757950362297367,
+        129.57799915319043
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944463,
+        0.7504528847548212
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 60,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        0,
+        0,
+        129.6
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944463,
+        0.7504528847548213
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 60,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        0,
+        0,
+        129.6
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944463,
+        0.7504528847548213
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    }
+  ],
+  "orbitedDirection": [
+    0.658198135586922,
+    -0.05996400647944463,
+    0.7504528847548212
+  ],
+  "reversal": {
+    "before": {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": true,
+      "transitionSeconds": 0.30109999999999854,
+      "fov": 62.08969568376278,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        -0.41263014089900923,
+        0.03759195765636558,
+        129.12953455375816
+      ],
+      "cameraForward": [
+        0.6581981355869221,
+        -0.059964006479444644,
+        0.7504528847548212
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    "after": {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": true,
+      "transitionSeconds": 0.08420000000000073,
+      "fov": 62.71210023401889,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        -0.5355297952668263,
+        0.048788518801683604,
+        128.9894089666909
+      ],
+      "cameraForward": [
+        0.6581981355869221,
+        -0.059964006479444644,
+        0.7504528847548212
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    "end": {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 60,
+      "metricSpeed": 0,
+      "target": 0,
+      "clockHeld": true,
+      "simTime": 0,
+      "distanceFlown": 0,
+      "position": [
+        0,
+        0,
+        129.6
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        0,
+        0,
+        129.6
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944463,
+        0.7504528847548213
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    }
+  },
+  "movingSwitches": [
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 80,
+      "metricSpeed": 2,
+      "target": 2,
+      "clockHeld": false,
+      "simTime": 0.5050603539926002,
+      "distanceFlown": 1.0101207079852004,
+      "position": [
+        0,
+        0,
+        130.61012070798526
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        -11.847566440564595,
+        1.0793521166300035,
+        117.10196878239847
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944464,
+        0.7504528847548213
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0.5050603539926002,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 60,
+      "metricSpeed": 2,
+      "target": 2,
+      "clockHeld": false,
+      "simTime": 0.9846683283009987,
+      "distanceFlown": 1.9693366566019974,
+      "position": [
+        0,
+        0,
+        131.56933665660196
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        0,
+        0,
+        131.56933665660196
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.059964006479444644,
+        0.7504528847548213
+      ],
+      "focus": "ship",
+      "sourceEpoch": 0.9846683283009987,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 80,
+      "metricSpeed": 2,
+      "target": 2,
+      "clockHeld": false,
+      "simTime": 1.4595395817729993,
+      "distanceFlown": 2.9190791635459985,
+      "position": [
+        0,
+        0,
+        132.51907916354594
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        -11.847566440564595,
+        1.0793521166300037,
+        119.01092723795915
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944465,
+        0.7504528847548213
+      ],
+      "focus": "ship",
+      "sourceEpoch": 1.4595395817729993,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 60,
+      "metricSpeed": 2,
+      "target": 2,
+      "clockHeld": false,
+      "simTime": 1.943884276917801,
+      "distanceFlown": 3.887768553835602,
+      "position": [
+        0,
+        0,
+        133.48776855383565
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        0,
+        0,
+        133.48776855383565
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944466,
+        0.7504528847548213
+      ],
+      "focus": "ship",
+      "sourceEpoch": 1.943884276917801,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 80,
+      "metricSpeed": 2,
+      "target": 2,
+      "clockHeld": false,
+      "simTime": 2.398609477212198,
+      "distanceFlown": 4.797218954424396,
+      "position": [
+        0,
+        0,
+        134.3972189544244
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        -11.847566440564595,
+        1.079352116630004,
+        120.88906702883762
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.059964006479444665,
+        0.7504528847548213
+      ],
+      "focus": "ship",
+      "sourceEpoch": 2.398609477212198,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 60,
+      "metricSpeed": 2,
+      "target": 2,
+      "clockHeld": false,
+      "simTime": 2.883223985569199,
+      "distanceFlown": 5.766447971138398,
+      "position": [
+        0,
+        0,
+        135.36644797113848
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        0,
+        0,
+        135.36644797113848
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944467,
+        0.7504528847548213
+      ],
+      "focus": "ship",
+      "sourceEpoch": 2.883223985569199,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "external",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 80,
+      "metricSpeed": 2,
+      "target": 2,
+      "clockHeld": false,
+      "simTime": 3.353268580467399,
+      "distanceFlown": 6.706537160934798,
+      "position": [
+        0,
+        0,
+        136.30653716093488
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        -11.847566440564595,
+        1.0793521166300042,
+        122.79838523534809
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.05996400647944468,
+        0.7504528847548213
+      ],
+      "focus": "ship",
+      "sourceEpoch": 3.353268580467399,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    },
+    {
+      "scene": "solar",
+      "representation": "optical",
+      "view": "bridge",
+      "transitioning": false,
+      "transitionSeconds": null,
+      "fov": 60,
+      "metricSpeed": 2,
+      "target": 2,
+      "clockHeld": false,
+      "simTime": 3.8126105846149967,
+      "distanceFlown": 7.625221169229993,
+      "position": [
+        0,
+        0,
+        137.22522116923005
+      ],
+      "heading": [
+        0,
+        0
+      ],
+      "cameraWorld": [
+        0,
+        0,
+        137.22522116923005
+      ],
+      "cameraForward": [
+        0.658198135586922,
+        -0.059964006479444686,
+        0.7504528847548213
+      ],
+      "focus": "ship",
+      "sourceEpoch": 3.8126105846149967,
+      "assist": false,
+      "assistCruise": 0,
+      "selectedTarget": 3,
+      "guides": true,
+      "assistMode": "approach",
+      "flybyPhase": null,
+      "lastFlyby": null
+    }
+  ],
+  "benchmark": {
+    "backend": "webgpu",
+    "view": "bridge",
+    "warp": true,
+    "scene": "solar",
+    "speedStart": 2,
+    "speedEnd": 2,
+    "cameraFocus": "ship",
+    "clockHeld": false,
+    "width": 1741,
+    "height": 979,
+    "resolution": 0.8,
+    "pixelRatio": 1.36015625,
+    "nativePixelRatio": 2,
+    "renderSizes": [
+      "2176×1224",
+      "1958×1102",
+      "1741×979"
+    ],
+    "frames": 561,
+    "fps": 56.0142981238705,
+    "p50": 16.799999999995634,
+    "p95": 32.400000000001455,
+    "p99": 48,
+    "over25ms": 34,
+    "gpuMs": 4.58752,
+    "memoryMiB": 48.118408203125,
+    "optics": {
+      "mode": "scene-map",
+      "width": 129,
+      "height": 73,
+      "refined": false,
+      "motionBudget": 129,
+      "tileRows": 8
+    }
+  },
+  "checks": "webgpu bridge + external GPU/CPU checks through 50 c: PASS\nMaximum sampled angle error 3.60e-6 rad\nHull events: {\"hits\":38,\"maxPosition\":0.000002020597463570084,\"maxTime\":0.0000173292519143331,\"maxLogFrequency\":5.080104199528535e-7}\nSolar events: {\"cases\":63,\"hits\":34,\"censored\":6,\"maxPosition\":0.00016980269362702592,\"maxTime\":0.00020610735599291274,\"maxLogFrequency\":0.0000018198843305070676}\nAdapter: amd rdna-1\nAdaptive RK4; cached external ray map. One active context; 4K GPU sky."
+}

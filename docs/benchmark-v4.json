@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-09",
+  "environment": "macOS ChatGPT in-app browser, AMD GPU, 1280x800, full display resolution, Auto optics, 4K sky, 1536 bridge angles and 513 stationary external map",
+  "samples": [
+    {"backend":"webgpu","view":"external","motion":"orbiting","speedC":50,"frames":601,"fps":59.998602,"p50ms":16.7,"p95ms":17.5,"p99ms":17.7,"over25ms":0,"sampledGpuMs":4.128768,"appGpuMiB":52.07263,"map":[129,81]},
+    {"backend":"webgpu","view":"external","motion":"orbit then stop; includes tiled refinement and swap","speedC":50,"frames":601,"fps":60.000399,"p50ms":16.7,"p95ms":17.5,"p99ms":17.7,"over25ms":0,"sampledGpuMs":0.917504,"appGpuMiB":52.07263,"finalMap":[513,321],"refined":true},
+    {"backend":"webgl2","view":"external","motion":"orbiting","speedC":50,"frames":601,"fps":59.999800,"p50ms":16.7,"p95ms":17.4,"p99ms":17.7,"over25ms":0,"sampledGpuMs":1.242839,"appGpuMiB":48.16638,"map":[129,81]},
+    {"backend":"webgl2","view":"Solar System","motion":"looking around after inspecting Earth","speedC":0,"frames":584,"fps":58.300888,"p50ms":16.7,"p95ms":17.6,"p99ms":33.4,"over25ms":15,"sampledGpuMs":1.420839,"appGpuMiB":48.12008}
+  ],
+  "gpuCpuSampledAngleDisagreementRad":{"webgpu":3.60e-6,"webgl2":2.25e-6},
+  "limits":"Ten-second session measurements, not universal 60fps. GPU timings are individual samples rather than averages. Earlier in the same session both the published v3 baseline and the new preview paced near35fps with under1ms GPU cost; later tests recovered. Native Firefox check was unavailable while the Mac was locked."
+}

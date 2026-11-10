@@ -1,0 +1,100 @@
+{
+  "release": "v5o",
+  "tests": {
+    "nodeSuites": 10,
+    "passed": 10,
+    "publishedLimits": "Exact transverse invariance and axial 1+v, including 51 at50c; no digitized published50c image match",
+    "canonicalSkyCases": 78,
+    "maxCanonicalSkyAngleRad": 1.456740961192087e-07,
+    "maxCanonicalSkyLogFrequency": 5.133564799919554e-07,
+    "canonicalHullCases": 6,
+    "hullTolerance": {
+      "positionR": 1e-05,
+      "timeRoverC": 1e-05,
+      "logFrequency": 1e-05
+    },
+    "gpuExternalCasesPerBackend": 125,
+    "gpuHullHitsPerBackend": 38,
+    "maxGpuHullPositionR": 2.020597463570084e-06,
+    "maxGpuHullTimeRoverC": 9.699857390188527e-06,
+    "maxGpuHullLogFrequency": 5.080104199528535e-07
+  },
+  "benchmarks": [
+    {
+      "browser": "in-app",
+      "backend": "WebGPU",
+      "release": "5o",
+      "view": "external orbit",
+      "speedC": 50,
+      "width": 2176,
+      "height": 1224,
+      "frames": 592,
+      "fps": 59.10071080584616,
+      "p95ms": 17.6,
+      "p99ms": 33.2,
+      "over25ms": 8,
+      "gpuSampleMs": 46.792704,
+      "memoryMiB": 48.11799621582031,
+      "map": [
+        129,
+        73
+      ]
+    },
+    {
+      "browser": "in-app",
+      "backend": "WebGPU",
+      "release": "5o",
+      "view": "orbit then stop/refine",
+      "speedC": 50,
+      "width": 2176,
+      "height": 1224,
+      "frames": 600,
+      "fps": 59.90534954771459,
+      "p95ms": 17.5,
+      "p99ms": 17.7,
+      "over25ms": 1,
+      "gpuSampleMs": 2.424832,
+      "memoryMiB": 48.11799621582031,
+      "map": [
+        513,
+        289
+      ]
+    },
+    {
+      "browser": "native Firefox",
+      "backend": "WebGL2",
+      "release": "5o",
+      "view": "external orbit",
+      "speedC": 50,
+      "width": 3046,
+      "height": 1758,
+      "frames": 585,
+      "fps": 58.114122228403396,
+      "p95ms": 17.6,
+      "p99ms": 17.74,
+      "over25ms": 5,
+      "gpuSampleMs": null,
+      "memoryMiB": 48.11799621582031,
+      "map": [
+        97,
+        55
+      ]
+    }
+  ],
+  "limits": [
+    "Ten-second session measurements, not a universal60fps promise; first-start compilation and transient host load can be slower.",
+    "GPU samples are sparse and can report a costly moving-view frame; submitted-frame intervals and upper bound2inflight are used forfps.",
+    "Steady-current-speed/heading snapshots, not complete accelerated flight history.",
+    "External emitted panel radiance uses bolometric g4 and optional center-ray exposure; RGB tint and sky artwork are illustrative.",
+    "Finite angular-map sampling can miss off-axis sub-cell hull images and caustics; centered rays are retained by odd map dimensions; flat mode traces hull per display pixel.",
+    "Solar System planets remain separately labeled coordinate-reference geometry, not bent/retarded solar-gravity optics."
+  ],
+  "fixes": [
+    "Hull source events intersected on same past-null rays as sky; instantaneous raster hull removed.",
+    "Timelike hull radius0.396103R through50c, comoving source-frame frequency.",
+    "GPU tanh exterior guard prevents distant camera NaNs.",
+    "Stackless preorder BVH avoids native graphics-driver mutable-stack misclassification.",
+    "Optional current coordinate shell off by default; all-hull event interpolation and mixed-cell display-resolution tracing.",
+    "Flat foreground beacons preserved before opaque hull."
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "sites_version": 11,
+  "sites_source_commit": "c30f3579617a6ee696a829edf705d13505755c24",
+  "runtime_unchanged": true,
+  "readme_modified_for_navigation": true,
+  "files": [
+    {
+      "path": "README.md",
+      "original_sha256": "096235591b0c423d1d6d5e74fc9c3fa7366443f95a18bfd7bd03414e32257e66",
+      "snapshot_sha256": "42826aab0617e380b14225fe2b5586741359241495233c880d0d30419d010a1f"
+    },
+    {
+      "path": "accuracy.test.mjs",
+      "original_sha256": "50aa0b75ec85b6852400e089ce3685391f9a4252bc734897ce824cf3329224c8",
+      "snapshot_sha256": "50aa0b75ec85b6852400e089ce3685391f9a4252bc734897ce824cf3329224c8"
+    },
+    {
+      "path": "bridge-map-audit.mjs",
+      "original_sha256": "757f8a32c91e1a0a8999fd75e3530bc613e9056e1bfbabfbddcc4e66c36a1d4d",
+      "snapshot_sha256": "757f8a32c91e1a0a8999fd75e3530bc613e9056e1bfbabfbddcc4e66c36a1d4d"
+    },
+    {
+      "path": "camera-transition.test.mjs",
+      "original_sha256": "1aa5e8eed698271cde5ebc6f273ea32ca35bd585aac9b6b0fc3fccd64d8953cc",
+      "snapshot_sha256": "1aa5e8eed698271cde5ebc6f273ea32ca35bd585aac9b6b0fc3fccd64d8953cc"
+    },
+    {
+      "path": "canonical-reference.mjs",
+      "original_sha256": "99527ff78953a54056c9be52e0c5b623a8ed7145a6f0192291bc5d9ae0272811",
+      "snapshot_sha256": "99527ff78953a54056c9be52e0c5b623a8ed7145a6f0192291bc5d9ae0272811"
+    },
+    {
+      "path": "cinematic.test.mjs",
+      "original_sha256": "bc7380d9ed95247f671f5e414a2d03f08b35f79ea251e418c1c2c347712d603c",
+      "snapshot_sha256": "bc7380d9ed95247f671f5e414a2d03f08b35f79ea251e418c1c2c347712d603c"
+    },
+    {
+      "path": "dist/app.mjs",
+      "original_sha256": "9296cb9afa02a775a83db641f60cfd9bf3820f076bae25b34dd52ba0b26311ae",
+      "snapshot_sha256": "9296cb9afa02a775a83db641f60cfd9bf3820f076bae25b34dd52ba0b26311ae"
+    },
+    {
+      "path": "dist/camera-transition.mjs",
+      "original_sha256": "24ab2e56ba3fad4aad703ec3c981432a2d44ce4b396be5d71555ef7d950cba7a",
+      "snapshot_sha256": "24ab2e56ba3fad4aad703ec3c981432a2d44ce4b396be5d71555ef7d950cba7a"
+    },
+    {
+      "path": "dist/cinematic.mjs",
+      "original_sha256": "b2dee43edceef0093170841c11872b48d7729d5eddc2177f86325b7d4494aba3",
+      "snapshot_sha256": "b2dee43edceef0093170841c11872b48d7729d5eddc2177f86325b7d4494aba3"
+    },
+    {
+      "path": "dist/field-worker.mjs",
+      "original_sha256": "b8948e0fb911dc2bbca2e2633b2fe0ba936b6e1a3ce09f0eaa07401fe7180fc8",
+      "snapshot_sha256": "b8948e0fb911dc2bbca2e2633b2fe0ba936b6e1a3ce09f0eaa07401fe7180fc8"
+    },
+    {
+      "path": "dist/flyby.mjs",
+      "original_sha256": "13195ef14320912bacf0c841ec86f4e620fee45d7b4543c936190f90072ea7cf",
+      "snapshot_sha256": "13195ef14320912bacf0c841ec86f4e620fee45d7b4543c936190f90072ea7cf"
+    },
+    {
+      "path": "dist/hud.mjs",
+      "original_sha256": "bf646051b8205223074ff64045bd99005e462a8875ebd6c0fa17069fc107327a",
+      "snapshot_sha256": "bf646051b8205223074ff64045bd99005e462a8875ebd6c0fa17069fc107327a"
+    },
+    {
+      "path": "dist/index.html",
+      "original_sha256": "f33a49d968fb626772df38a95ef6c8408c3794b5bf3f90e82c0e4f30b69862dc",
+      "snapshot_sha256": "f33a49d968fb626772df38a95ef6c8408c3794b5bf3f90e82c0e4f30b69862dc"
+    },
+    {
+      "path": "dist/navigation.mjs",
+      "original_sha256": "634991dd84f6b3b516d77145f4e787715b28a1fe648296fb27b014d5d38b276d",
+      "snapshot_sha256": "634991dd84f6b3b516d77145f4e787715b28a1fe648296fb27b014d5d38b276d"
+    },
+    {
+      "path": "dist/optics-cache.mjs",
+      "original_sha256": "775a85864e24e63dcda7f54a16a73b2f7519de62452fda160ac2e016969f9e6f",
+      "snapshot_sha256": "775a85864e24e63dcda7f54a16a73b2f7519de62452fda160ac2e016969f9e6f"
+    },
+    {
+      "path": "dist/optics-kernel.mjs",
+      "original_sha256": "f5ba6009ca05de2b54c8011184e327ca7d02dfaef96417081a0f9845995b6500",
+      "snapshot_sha256": "f5ba6009ca05de2b54c8011184e327ca7d02dfaef96417081a0f9845995b6500"
+    },
+    {
+      "path": "dist/optics-wgsl.mjs",
+      "original_sha256": "5e5920e0a265889cf92de83a5ede3ef16e858d0b68930c67ab05088ecd2d0191",
+      "snapshot_sha256": "5e5920e0a265889cf92de83a5ede3ef16e858d0b68930c67ab05088ecd2d0191"
+    },
+    {
+      "path": "dist/physics.mjs",
+      "original_sha256": "25679b354ba8e335436748eec5532f20d4ea819760df704235bde408d386c6de",
+      "snapshot_sha256": "25679b354ba8e335436748eec5532f20d4ea819760df704235bde408d386c6de"
+    },
+    {
+      "path": "dist/render-shaders.mjs",
+      "original_sha256": "db0ff2c84e43b83bbe5ae5f646fcb1de12994ffa9cc9dcdddc334932d347b5c8",
+      "snapshot_sha256": "db0ff2c84e43b83bbe5ae5f646fcb1de12994ffa9cc9dcdddc334932d347b5c8"
+    },
+    {
+      "path": "dist/route.mjs",
+      "original_sha256": "401b3cfb2678666f328f0cac23398c56274ba75f9a91225ccbb8e0489a023d62",
+      "snapshot_sha256": "401b3cfb2678666f328f0cac23398c56274ba75f9a91225ccbb8e0489a023d62"
+    },
+    {
+      "path": "dist/scene-ray.mjs",
+      "original_sha256": "59d3bc9da0774dae5ea4ef7cdbdcc0aa2899c9ff942702bdd8d30427ea9f36fb",
+      "snapshot_sha256": "59d3bc9da0774dae5ea4ef7cdbdcc0aa2899c9ff942702bdd8d30427ea9f36fb"
+    },
+    {
+      "path": "dist/scene.mjs",
+      "original_sha256": "acaad15eba836b523fb8e4334b0e61597c7be62ba0cde8240a12399ff32fe257",
+      "snapshot_sha256": "acaad15eba836b523fb8e4334b0e61597c7be62ba0cde8240a12399ff32fe257"
+    },
+    {
+      "path": "dist/ship-gpu.mjs",
+      "original_sha256": "6dfc422596a8b99261df4ec075c27d628f5d78e0e32bd21a86c05a8c95c961ca",
+      "snapshot_sha256": "6dfc422596a8b99261df4ec075c27d628f5d78e0e32bd21a86c05a8c95c961ca"
+    },
+    {
+      "path": "dist/ship.mjs",
+      "original_sha256": "859351c5bb2daf906b8f0a28459357cbc1a3a2533dabfdc09f039a4fe65a163a",
+      "snapshot_sha256": "859351c5bb2daf906b8f0a28459357cbc1a3a2533dabfdc09f039a4fe65a163a"
+    },
+    {
+      "path": "dist/sky.mjs",
+      "original_sha256": "716ae25c09c2ad844bba54b50c3b7aa671667f8ae87caa030bc5ce2539b96479",
+      "snapshot_sha256": "716ae25c09c2ad844bba54b50c3b7aa671667f8ae87caa030bc5ce2539b96479"
+    },
+    {
+      "path": "dist/solar-gpu.mjs",
+      "original_sha256": "fccb6588b5c6399fa755de7dfa5ef3f3ccee71c4d726861493ee48ec5629c2db",
+      "snapshot_sha256": "fccb6588b5c6399fa755de7dfa5ef3f3ccee71c4d726861493ee48ec5629c2db"
+    },
+    {
+      "path": "dist/solar-optics.mjs",
+      "original_sha256": "6a2c2b1cfb5346e22fc6a01b2f1069fd4fa1269cc072acd05b354c8b5d82078d",
+      "snapshot_sha256": "6a2c2b1cfb5346e22fc6a01b2f1069fd4fa1269cc072acd05b354c8b5d82078d"
+    },
+    {
+      "path": "dist/solar-system.mjs",
+      "original_sha256": "20864982a582cc2f2f7505fed42c6ecb42ccd25498a33dc2ed584862c8f3bc41",
+      "snapshot_sha256": "20864982a582cc2f2f7505fed42c6ecb42ccd25498a33dc2ed584862c8f3bc41"
+    },
+    {
+      "path": "dist/solar-validation.mjs",
+      "original_sha256": "d1c8aaabccb61fbbc0d227f741d9ef7353175ac6369be9e70d5e56b1f9be7466",
+      "snapshot_sha256": "d1c8aaabccb61fbbc0d227f741d9ef7353175ac6369be9e70d5e56b1f9be7466"
+    },
+    {
+      "path": "dist/spatial.mjs",
+      "original_sha256": "d9b22438fdf11bb171210bf4597dd00ae9470c72e72623234ce8c19a2741dc73",
+      "snapshot_sha256": "d9b22438fdf11bb171210bf4597dd00ae9470c72e72623234ce8c19a2741dc73"
+    },
+    {
+      "path": "dist/style.css",
+      "original_sha256": "e704e29e52fd759a67cb1ba424d09e720c46a52e184596ae23a245f4e2415586",
+      "snapshot_sha256": "e704e29e52fd759a67cb1ba424d09e720c46a52e184596ae23a245f4e2415586"
+    },
+    {
+      "path": "dist/webgl.mjs",
+      "original_sha256": "2aea84cf0b7228adfa6ddb98cf8125e44718638a0ced4acb8a90110ff6495245",
+      "snapshot_sha256": "2aea84cf0b7228adfa6ddb98cf8125e44718638a0ced4acb8a90110ff6495245"
+    },
+    {
+      "path": "dist/webgpu.mjs",
+      "original_sha256": "bf74c37a3cdb7b423d8317186722e33d8d80dd8a5865ebe6b8fd4bb9806c271c",
+      "snapshot_sha256": "bf74c37a3cdb7b423d8317186722e33d8d80dd8a5865ebe6b8fd4bb9806c271c"
+    },
+    {
+      "path": "dist/world.mjs",
+      "original_sha256": "3dbf1e26e4e0ec39580216553e4ce7c550e3f66d1e63efbe78accabbd03f405a",
+      "snapshot_sha256": "3dbf1e26e4e0ec39580216553e4ce7c550e3f66d1e63efbe78accabbd03f405a"
+    },
+    {
+      "path": "docs/accuracy-v4.json",
+      "original_sha256": "10c3e19e02c992bcb4e38a3a675b5865837fa3a5d6200985632e648e5af8f700",
+      "snapshot_sha256": "10c3e19e02c992bcb4e38a3a675b5865837fa3a5d6200985632e648e5af8f700"
+    },
+    {
+      "path": "docs/benchmark-results.json",
+      "original_sha256": "fb5e85a5d3425d460295407e30723ccbabc06d778cbf26049f36885eec5a258b",
+      "snapshot_sha256": "fb5e85a5d3425d460295407e30723ccbabc06d778cbf26049f36885eec5a258b"
+    },
+    {
+      "path": "docs/benchmark-v3.json",
+      "original_sha256": "4c13d4f3a9cf8b1bea68077577389af09ed34868d755dc9cae4b9528ca9e0b7b",
+      "snapshot_sha256": "4c13d4f3a9cf8b1bea68077577389af09ed34868d755dc9cae4b9528ca9e0b7b"
+    },
+    {
+      "path": "docs/benchmark-v4.json",
+      "original_sha256": "018e7099263e8775293e837706bae070304bba6139695c9442cf2c3166e2d69e",
+      "snapshot_sha256": "018e7099263e8775293e837706bae070304bba6139695c9442cf2c3166e2d69e"
+    },
+    {
+      "path": "docs/benchmark-v5.json",
+      "original_sha256": "6e75919857a0d08fd0abeb2bf4fd7d2e9adcd3fc9bbb8539d4c0785e7979d075",
+      "snapshot_sha256": "6e75919857a0d08fd0abeb2bf4fd7d2e9adcd3fc9bbb8539d4c0785e7979d075"
+    },
+    {
+      "path": "docs/benchmark-v6.json",
+      "original_sha256": "51dd1d1a4c3786c784e54af8dd5e2e6903ef4106d954eec70d3aed56a36202ce",
+      "snapshot_sha256": "51dd1d1a4c3786c784e54af8dd5e2e6903ef4106d954eec70d3aed56a36202ce"
+    },
+    {
+      "path": "docs/bridge-external-alignment-validation.json",
+      "original_sha256": "d74fc15994fbfd2633c0f4da75135ed5fc93d5690299699898eb22b1d57553c5",
+      "snapshot_sha256": "d74fc15994fbfd2633c0f4da75135ed5fc93d5690299699898eb22b1d57553c5"
+    },
+    {
+      "path": "docs/final-polish-validation.json",
+      "original_sha256": "c8e4fde899d521ff82fe1a79aaf180703786236caf13e5cec1fd0056e88c9faf",
+      "snapshot_sha256": "c8e4fde899d521ff82fe1a79aaf180703786236caf13e5cec1fd0056e88c9faf"
+    },
+    {
+      "path": "docs/navigation-validation.json",
+      "original_sha256": "5286c9768d8ac2b2766bbc9ed2ad241b59db89e8c468bb48910089ddd1311d1e",
+      "snapshot_sha256": "5286c9768d8ac2b2766bbc9ed2ad241b59db89e8c468bb48910089ddd1311d1e"
+    },
+    {
+      "path": "docs/smooth-camera-validation.json",
+      "original_sha256": "cf965cf259f82ba038e380a2e298d12174ca2bb510dc80954c06f196467043dc",
+      "snapshot_sha256": "cf965cf259f82ba038e380a2e298d12174ca2bb510dc80954c06f196467043dc"
+    },
+    {
+      "path": "emitters.test.mjs",
+      "original_sha256": "7de78da5addc70868c75411097d19704e3ae47dee794d5d64f3ee0ff88a52678",
+      "snapshot_sha256": "7de78da5addc70868c75411097d19704e3ae47dee794d5d64f3ee0ff88a52678"
+    },
+    {
+      "path": "external-map-audit.mjs",
+      "original_sha256": "7539f18cb9f36efce5b02fe7c3bb2d2da43ddf8146daf52d70645f42d70f7cb4",
+      "snapshot_sha256": "7539f18cb9f36efce5b02fe7c3bb2d2da43ddf8146daf52d70645f42d70f7cb4"
+    },
+    {
+      "path": "external.test.mjs",
+      "original_sha256": "d869d049b62d7536fcef144d50222c23c63d29c3329f000ea28fa5af6b0acb92",
+      "snapshot_sha256": "d869d049b62d7536fcef144d50222c23c63d29c3329f000ea28fa5af6b0acb92"
+    },
+    {
+      "path": "flight-ux.test.mjs",
+      "original_sha256": "1a9699c8c8247a543339f685df0234567af9f64b7c1d6866c963edd8070c8946",
+      "snapshot_sha256": "1a9699c8c8247a543339f685df0234567af9f64b7c1d6866c963edd8070c8946"
+    },
+    {
+      "path": "flyby.test.mjs",
+      "original_sha256": "406a27456b5e2c56d98f5b39fb98736e0f3298829fecef81d8ad59c0f6470a34",
+      "snapshot_sha256": "406a27456b5e2c56d98f5b39fb98736e0f3298829fecef81d8ad59c0f6470a34"
+    },
+    {
+      "path": "hud.test.mjs",
+      "original_sha256": "1c7cd4d9208a2b50b6af276067a700eb5afeeb2a6c9722100f39f62f58d81b2d",
+      "snapshot_sha256": "1c7cd4d9208a2b50b6af276067a700eb5afeeb2a6c9722100f39f62f58d81b2d"
+    },
+    {
+      "path": "navigation.test.mjs",
+      "original_sha256": "ec427cd192a1bc2db8549dd0fb70ae8d829fffbc6f34024a9358a0f1d1fc1ea9",
+      "snapshot_sha256": "ec427cd192a1bc2db8549dd0fb70ae8d829fffbc6f34024a9358a0f1d1fc1ea9"
+    },
+    {
+      "path": "optics-cache.test.mjs",
+      "original_sha256": "895e2fc81096820468af8f7fa90d4cbd0db68c8bb0ebd96ff36b2059f4d60c58",
+      "snapshot_sha256": "895e2fc81096820468af8f7fa90d4cbd0db68c8bb0ebd96ff36b2059f4d60c58"
+    },
+    {
+      "path": "physics.test.mjs",
+      "original_sha256": "faffca4e4e9e8f726ad54b109c365380a9e3ea2d8428ed74ac10abfe9ac33671",
+      "snapshot_sha256": "faffca4e4e9e8f726ad54b109c365380a9e3ea2d8428ed74ac10abfe9ac33671"
+    },
+    {
+      "path": "route.test.mjs",
+      "original_sha256": "ec3ba75860ebc3d2d0286e7a5558b533263fd62f7cd471ef2337f7076a664fbd",
+      "snapshot_sha256": "ec3ba75860ebc3d2d0286e7a5558b533263fd62f7cd471ef2337f7076a664fbd"
+    },
+    {
+      "path": "ship.test.mjs",
+      "original_sha256": "cc32500470c19afdb0823b6c3a0027575115fb1ee485696b2bbdb23b52cd1ac5",
+      "snapshot_sha256": "cc32500470c19afdb0823b6c3a0027575115fb1ee485696b2bbdb23b52cd1ac5"
+    },
+    {
+      "path": "solar-optics.test.mjs",
+      "original_sha256": "eada962fd6706fad685c9080e97da332cda82f9ac62a251d3e5cc1c5f3edf8e2",
+      "snapshot_sha256": "eada962fd6706fad685c9080e97da332cda82f9ac62a251d3e5cc1c5f3edf8e2"
+    },
+    {
+      "path": "spatial.test.mjs",
+      "original_sha256": "72c549d01d19a8a6e04e877311af739860f1c82ee9b5c8c07eb4a3a30ff986c6",
+      "snapshot_sha256": "72c549d01d19a8a6e04e877311af739860f1c82ee9b5c8c07eb4a3a30ff986c6"
+    }
+  ],
+  "public_snapshot": true,
+  "deployment_configuration_excluded": true
+}

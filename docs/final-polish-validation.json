@@ -1,0 +1,162 @@
+{
+  "webgpu": {
+    "benchmark": {
+      "backend": "webgpu",
+      "view": "external",
+      "warp": true,
+      "scene": "solar",
+      "speedStart": 50,
+      "speedEnd": 50,
+      "cameraFocus": "ship",
+      "clockHeld": true,
+      "width": 750,
+      "height": 540,
+      "resolution": 0.75,
+      "pixelRatio": 0.75,
+      "nativePixelRatio": 1,
+      "renderSizes": [
+        "750\u00d7540"
+      ],
+      "frames": 574,
+      "fps": 57.302013556817805,
+      "p50": 16.69999999999709,
+      "p95": 17.69999999999709,
+      "p99": 33.80000000000291,
+      "over25ms": 25,
+      "gpuMs": 7.995392,
+      "memoryMiB": 48.118408203125,
+      "optics": {
+        "mode": "scene-map",
+        "width": 513,
+        "height": 369,
+        "refined": true,
+        "motionBudget": 105,
+        "tileRows": 8
+      }
+    },
+    "validation": "webgpu bridge + external GPU/CPU checks through 50 c: PASS\nMaximum sampled angle error 3.60e-6 rad\nHull events: {\"hits\":38,\"maxPosition\":0.000002020597463570084,\"maxTime\":0.0000173292519143331,\"maxLogFrequency\":5.080104199528535e-7}\nSolar events: {\"cases\":63,\"hits\":34,\"censored\":6,\"maxPosition\":0.00016980269362702592,\"maxTime\":0.00020610735599291274,\"maxLogFrequency\":0.0000018198843305070676}\nAdapter: amd rdna-1\nAdaptive RK4; cached external ray map. One active context; 4K GPU sky.",
+    "tour": {
+      "complete": true,
+      "durationSeconds": 120,
+      "earthClosestR": 5.355948501230886,
+      "earthClearanceR": 4.006378,
+      "continuousWorld": "solar",
+      "sampledFps": 59.95
+    }
+  },
+  "webgl": {
+    "benchmark": {
+      "backend": "webgl2",
+      "view": "external",
+      "warp": true,
+      "scene": "solar",
+      "speedStart": 50,
+      "speedEnd": 50,
+      "cameraFocus": "ship",
+      "clockHeld": true,
+      "width": 750,
+      "height": 540,
+      "resolution": 0.75,
+      "pixelRatio": 0.75,
+      "nativePixelRatio": 1,
+      "renderSizes": [
+        "750\u00d7540"
+      ],
+      "frames": 335,
+      "fps": 33.447153497473984,
+      "p50": 33.099999999998545,
+      "p95": 50.30000000000291,
+      "p99": 66.80000000000291,
+      "over25ms": 232,
+      "gpuMs": 21.270519,
+      "memoryMiB": 48.118408203125,
+      "optics": {
+        "mode": "scene-map",
+        "width": 513,
+        "height": 369,
+        "refined": true,
+        "motionBudget": 63,
+        "tileRows": 2
+      }
+    },
+    "validation": "webgl2 bridge + external GPU/CPU checks through 50 c: PASS\nMaximum sampled angle error 2.99e-6 rad\nHull events: {\"hits\":38,\"maxPosition\":0.000002020597463570084,\"maxTime\":0.0000154219032815206,\"maxLogFrequency\":5.080104199528535e-7}\nSolar events: {\"cases\":63,\"hits\":34,\"censored\":6,\"maxPosition\":0.00016980269362702592,\"maxTime\":0.00021373675052416274,\"maxLogFrequency\":0.000002043254152095386}\nAdapter: ANGLE (AMD, ANGLE Metal Renderer: AMD Radeon Pro 5500M, Unspecified Version)\nAdaptive RK4; cached external ray map. One active context; 4K GPU sky.",
+    "pan": {
+      "before": {
+        "scene": "solar",
+        "representation": "optical",
+        "view": "external",
+        "metricSpeed": 50,
+        "target": 50,
+        "clockHeld": true,
+        "simTime": 0.20973480361680064,
+        "distanceFlown": 8.746444962150001,
+        "position": [
+          0,
+          0,
+          138.34644496214997
+        ],
+        "heading": [
+          0,
+          0
+        ],
+        "cameraWorld": [
+          0,
+          0,
+          -167.65355503785003
+        ],
+        "cameraForward": [
+          0,
+          0,
+          1
+        ],
+        "focus": "ship",
+        "sourceEpoch": 0.20973480361680064,
+        "assist": false,
+        "assistCruise": 0,
+        "selectedTarget": 3,
+        "guides": true,
+        "assistMode": "approach",
+        "flybyPhase": null,
+        "lastFlyby": null
+      },
+      "after": {
+        "scene": "solar",
+        "representation": "optical",
+        "view": "external",
+        "metricSpeed": 50,
+        "target": 50,
+        "clockHeld": true,
+        "simTime": 0.20973480361680064,
+        "distanceFlown": 8.746444962150001,
+        "position": [
+          0,
+          0,
+          138.34644496214997
+        ],
+        "heading": [
+          0,
+          0
+        ],
+        "cameraWorld": [
+          -24.963214027524078,
+          14.264693730013759,
+          -167.65355503785003
+        ],
+        "cameraForward": [
+          0,
+          0,
+          1
+        ],
+        "focus": "ship",
+        "sourceEpoch": 0.20973480361680064,
+        "assist": false,
+        "assistCruise": 0,
+        "selectedTarget": 3,
+        "guides": true,
+        "assistMode": "approach",
+        "flybyPhase": null,
+        "lastFlyby": null
+      }
+    }
+  }
+}

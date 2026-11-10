@@ -1,0 +1,12 @@
+import{solarFrame,solarSnapshot}from'./solar-system.mjs?v=8j';import{traceSceneRay}from'./scene-ray.mjs?v=8j';
+const bodies=solarSnapshot(),earth=bodies[3].position,jupiter=bodies[5].position;
+export const solarFixtures=[...([false,true].flatMap(external=>[0,.5,2,50].map(velocity=>({position:[earth[0],earth[1],earth[2]+8],eye:[0,0,-18],external,velocity})))),...[0,.5,2,50].map(velocity=>({position:[jupiter[0],jupiter[1],jupiter[2]-6],eye:[0,0,0],external:false,velocity})),...[0,.5,2,50].map(velocity=>({position:[0,0,0],eye:[0,0,0],external:false,velocity})),...[.5,2,50].map(velocity=>({position:[0,0,0],eye:[0,0,-6],external:true,velocity}))].map(s=>({...s,frame:solarFrame(s.position,0,0,0,s.eye),camera:{eye:s.eye,right:[1,0,0],up:[0,1,0],forward:[0,0,1]}}));
+solarFixtures.push({...solarFixtures[3],camera:{eye:[0,0,-18],right:[1,0,-.000013],up:[0,1,0],forward:[.000013,0,1]}});
+{const position=[0,0,129.6],body=bodies[8],eye=body.position.map((x,i)=>x-position[i]-(i===2?body.radius*5:0));solarFixtures.push({position,eye,external:true,velocity:0,frame:solarFrame(position,0,0,0,eye),camera:{eye,right:[1,0,0],up:[0,1,0],forward:[0,0,1]}});}
+export const solarStats=()=>({cases:0,hits:0,censored:0,maxPosition:0,maxTime:0,maxLogFrequency:0});
+export function checkSolar(stats,s,x,y,vertical,d,o){
+ const ray=[0,1,2].map(i=>(x/8-.5)*1.6*s.camera.right[i]+vertical*(y/8-.5)*s.camera.up[i]+.8660254*s.camera.forward[i]),cpu=traceSceneRay(s.eye,ray,s.velocity,{frame:s.frame,hull:s.external,complete:true}),hit=o[3]<-1.5;stats.cases++;
+ if(![...d,...o].every(Number.isFinite)||hit!==(cpu.face>=0))throw Error('Solar event classification '+s.velocity+'c '+s.eye+' sample'+x+','+y+' CPU '+cpu.face+' GPU '+d+' / '+o);
+ if(hit){if((cpu.face>=100||d[0]>=100)&&Math.round(d[0])!==cpu.face)throw Error('Solar nearest opaque ordering '+s.velocity+'c '+s.position+' eye'+s.eye+' hull'+s.external+' sample'+x+','+y+' CPU'+cpu.face+' GPU'+d[0]+' time'+cpu.t+'/'+d[1]);const position=Math.hypot(...cpu.p.map((a,i)=>a-o[i]-(i===2?s.velocity*(cpu.t-d[1]):0))),time=Math.abs(cpu.t-d[1]),freq=Math.abs(cpu.logFrequency-d[2]);stats.hits++;if(cpu.logFrequency===-80)stats.censored++;stats.maxPosition=Math.max(stats.maxPosition,position);stats.maxTime=Math.max(stats.maxTime,time);stats.maxLogFrequency=Math.max(stats.maxLogFrequency,freq);if(position>.0005||time>.003||freq>.003)throw Error('Solar event mismatch '+s.velocity+'c: '+[position,time,freq]);}
+ else if((o[3]>=0)!==cpu.escaped)throw Error('Solar escape classification');
+}
